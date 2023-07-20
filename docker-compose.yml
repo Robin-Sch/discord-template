@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  discord-template:
+    container_name: discord-template
+    image: ghcr.io/RobinSch/discord-template:latest
+    restart: always
+    environment:
+      - BOT_TOKEN=
